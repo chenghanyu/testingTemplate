@@ -1,0 +1,31 @@
+---
+title: "Working with Docx Modifications"
+author: "Cheng-Han Yu"
+date: "July 19, 2017"
+output:
+  word_document: default
+  html_document: default
+---
+### Abstract
+In this paper, we propose a efficient algorithm that detects which voxels in fMRI data are activated.
+
+
+# Introductiuon
+stuff stuff stuff stuff stuff stuff stuff
+
+# Methods
+Statistical algorithms Statistical algorithms Statistical algorithms
+
+# Simulation Study
+Simulation data and algorithm performance
+
+# Data Analysis
+Real human data analysis and comparison
+
+# Discussions
+Comparing different methods
+
+# Conclusions
+Here is the conclusion
+
+

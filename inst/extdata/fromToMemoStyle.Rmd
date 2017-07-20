@@ -1,0 +1,75 @@
+---
+title: "Working with Docx Modifications"
+author: ""
+date: ""
+output:
+  word_document:
+    reference_docx: ref02_addTextBox.docx
+  html_document: default
+---
+
+***
+```{r, echo=FALSE}
+## The table below is needed to format the 
+## header.  When the left column is empty, the 
+## text in the right column turns blue and adds 
+## an extra line space buffer in the final document.  
+## I don't know how to fix this yet. 
+## Also, the line break is needed between these 2 
+## tables, or the formatting is affected.
+```
+
+-------- ------------------------------------------------------------------------
+To:      Raquel Prado, Professor
+
+         UC Santa Cruz
+         
+From:    Cheng-Han Yu, PhD student
+
+         [Department of Applied Math and Statistics](https://www.soe.ucsc.edu/departments/applied-mathematics-statistics) 
+         
+         <cheyu@soe.ucsc.edu>
+         
+Subject: Final Report for Sarcopenia Measures from Trial 01-341 for the First of 
+         2 Manuscripts
+         
+Date:    `r Sys.Date()`
+-------- ------------------------------------------------------------------------
+
+***
+
+# Goal:
+
+Main text of report goes here...
+
+### Abstract
+In this paper, we propose a efficient algorithm that detects which voxels in fMRI data are activated.
+
+Inline Values in the Abstract
+```{r, labeledChunkBeforeAbstract, echo=FALSE}
+x <- 5 + 7
+```
+my inline value `r sum(x)` here.
+
+
+# Introductiuon
+stuff stuff stuff stuff stuff stuff stuff
+
+The following is the code run in the abstract.
+```{r, labeledChunkAfterAbstract, eval=FALSE}
+<<labeledChunkBeforeAbstract>>
+```
+# Methods
+Statistical algorithms Statistical algorithms Statistical algorithms
+
+# Simulation Study
+Simulation data and algorithm performance
+
+# Data Analysis
+Real human data analysis and comparison
+
+# Discussions
+Comparing different methods
+
+# Conclusions
+Here is the conclusion
